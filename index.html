@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Srđan Maljukan | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>SRĐAN MALJUKAN</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/hero-photo.jpg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hello, my name is Srđan Maljukan and I am a Developer focused on
+          making modern webpages using technologies like Next.js, but planning
+          on learning much more.
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        I finished Faculty of Pharmacy, but after few years of working, I saw
+        that it is not a good fit for me after all. So I switched to programming
+        and have been learning it ever since. I primarily focus on Web
+        Development (NodeJS, ReactJS, Next.js) and I also make video games using
+        C++ and Unreal Engine.
+      </p>
+      <p>
+        Although I still don't have any professional experience in Web
+        Developing, I have done several projects on my own and some of them will
+        be presented here.
+      </p>
+      <p>
+        I like watching movies, TV shows and playing video games, so basically,
+        all things technology and computers.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt="html-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt="css-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt="javascript-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-unreal-engine-100.svg"
+            alt="unreal-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt="react-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt="git-icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/prostore.png"
+            alt="issue-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Prostore</h3>
+          <p class="project-details">
+            E-commerce app for selling clothes. Made with NextJS, Typescript,
+            Prisma, ShadCN and many others libraries. Enabled for PayPal and
+            Stripe payments.
+          </p>
+          <a
+            href="https://prostore-one-woad.vercel.app/"
+            target="_blank"
+            class="project-link button"
+            >Check it Out</a
+          >
+          <a
+            href="https://github.com/srdjanmaljukan/prostore"
+            target="_blank"
+            class="repo-link button"
+            >Git Repo</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/its-always-sunny.png"
+            alt="weather-app"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">It's always sunny...</h3>
+          <p class="project-details">
+            Simple ReactJS weather app that shows current weather, hourly
+            weahter for 2 days and daily weather for 8 days. Built with the help
+            of OpenWeatherMap API.
+          </p>
+          <a
+            href="https://its-always-sunny-somewhere.netlify.app/"
+            target="_blank"
+            class="project-link button"
+            >Check it Out</a
+          >
+          <a
+            href="https://github.com/srdjanmaljukan/weather-app"
+            target="_blank"
+            class="repo-link button"
+            >Git Repo</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/postit-noteit.png"
+            alt="post-it-note-it"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Post-IT Note-IT</h3>
+          <p class="project-details">
+            Standard Notes webapp with adding and deleting notes functionality.
+            Created with ReactJS and used MaterialUI features for design.
+          </p>
+          <a
+            href="https://post-it-note-it.netlify.app/"
+            target="_blank"
+            class="project-link button"
+            >Check it Out</a
+          >
+          <a
+            href="https://github.com/srdjanmaljukan/NoteIT"
+            target="_blank"
+            class="repo-link button"
+            >Git Repo</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get in Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyyqybpr" method="post">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="text"
+                name="sender-email"
+                id="email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://www.facebook.com/srdjan.maljukan" target="_blank">
+        <img
+          src="assets/icons/icons8-facebook.svg"
+          alt="Facebook"
+          loading="lazy"
+          class="socicon"
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/srdjan-maljukan-7052151b5/"
+        target="_blank"
+      >
+        <img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="LinkedIn"
+          loading="lazy"
+          class="socicon"
+        />
+      </a>
+      <a href="https://github.com/srdjanmaljukan" target="_blank">
+        <img
+          src="assets/icons/icons8-github.gif"
+          alt="Github"
+          class="socicon"
+        />
+      </a>
+    </div>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright <span class="year"></span></p>
+      <p>
+        Image by
+        <a
+          href="https://www.freepik.com/free-vector/code-typing-concept-illustration_10259340.htm#page=4&query=developer%20illustrations&position=11&from_view=search&track=ais"
+          >storyset</a
+        >
+        on Freepik
+      </p>
+      <p class="copy">Built by Srđan Maljukan</p>
+    </footer>
+
+    <i class="scroll-up" id="scroll-up">
+      <img
+        src="assets/icons/up-arrow.gif"
+        alt="scroll-up"
+        class="socicon up-arrow"
+      />
+    </i>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
