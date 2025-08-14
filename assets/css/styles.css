@@ -98,7 +98,9 @@ nav ul li {
   display: none;
 }
 
-#about, #skills, #projects {
+#about,
+#skills,
+#projects {
   padding-top: 100px;
 }
 
@@ -250,18 +252,24 @@ nav ul li {
 }
 
 .button {
-  border: 1px solid black;
-  border-radius: 10px;
+  width: 100%;
   padding: 10px;
-  background-color: black;
-  color: white;
-  transition: .4s;
+  margin: 10px 0;
+  background-color: #fff;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+  text-decoration: none;
 }
 
 .button:hover {
-  background-color: white;
-  color: black;
-  font-weight: 700;
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  color: #fff;
 }
 
 /* Contact Section */
@@ -429,6 +437,8 @@ footer {
   .icon {
     width: 5.875rem;
     height: 5.25rem;
+    margin: 30px auto;
+    display: block;
   }
 
   .projects-container {
@@ -437,6 +447,7 @@ footer {
 
   .project-container {
     width: 20.875rem;
+    margin: 10px auto;
   }
 
   .contact-form-container {
